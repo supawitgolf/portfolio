@@ -3,7 +3,7 @@
 A responsive one-page personal website to showcase my background, experience, and projects.
 
 ## Live Site  
-[https://supawitgolf.github.io](https://supawitgolf.github.io)
+[https://supawitgolf.github.io/portfolio/](https://supawitgolf.github.io/portfolio/)
 
 ## Built With  
 - React  
