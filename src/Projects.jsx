@@ -22,7 +22,7 @@ const projects = [
   {
     name: 'Russia-Ukraine War Study',
     images: [RUImg],
-    description: 'This project aims to support evacuation strategies and humanitarian aid planning. This project analyzed patterns and trends in the war using ACLED dataset, applied clustering techniques to understand types of violence and actors involved, and finally developed time-series models to prodect daily intensity of the war.',
+    description: 'This project aimed to support evacuation strategies and humanitarian aid planning. I analyzed patterns and trends in the war using the ACLED dataset, applied clustering techniques to understand types of violence and actors involved, and developed time-series models to predict the daily intensity of the conflict.',
     link: 'https://github.com/supawitgolf/rus-ukr-study',
     tech: ['Python', 'PyTorch', 'Scikit-Learn', 'LSTM', 'HMM']
   },

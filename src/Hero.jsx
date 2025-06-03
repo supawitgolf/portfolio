@@ -16,7 +16,7 @@ const Hero = ({ darkMode }) => {
           <h1 className="hero-name">Golf Sutthiboriban</h1>
           <p className="hero-subtitle">MCS student @ UIUC</p>
           <div className="hero-buttons">
-            <a href="https://drive.google.com/file/d/1BkVToHIsfszivHBoZeJ6_DwgCmdTpiEC/view?usp=sharing" className="resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://tinyurl.com/golf-resume" className="resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
             <a href="https://www.linkedin.com/in/supawit-sutthiboriban" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
