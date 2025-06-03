@@ -12,6 +12,7 @@ const sections = ['Home', 'About Me', 'Experience', 'Projects', 'Contact'];
 const OnePagePortfolio = () => {
   const [active, setActive] = useState('Home');
   const [darkMode, setDarkMode] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,7 +27,7 @@ const OnePagePortfolio = () => {
         }
       }
 
-      
+
       if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 5)) {
         currentSection = 'Contact';
       }
@@ -43,7 +44,8 @@ const OnePagePortfolio = () => {
     } else {
       const el = document.getElementById(id.toLowerCase());
       if (el) {
-        const offset = 50; 
+        const navbar = document.querySelector('.navbar');
+        const offset = navbar ? navbar.offsetHeight : 50;
         const top = el.getBoundingClientRect().top + window.pageYOffset - offset;
         window.scrollTo({ top, behavior: 'smooth' });
       }
@@ -54,12 +56,20 @@ const OnePagePortfolio = () => {
     <div className={darkMode ? 'dark pastel-blue' : 'pastel-blue'}>
       <nav className="navbar">
         <div className="nav-left">Golf Sutthiboriban</div>
-        <div className="nav-right">
+
+        <div className="nav-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+          ☰
+        </div>
+
+        <div className={`nav-right ${menuOpen ? 'open' : ''}`}>
           {sections.map((sec) => (
             <span
               key={sec}
               className={active === sec ? 'active' : ''}
-              onClick={() => scrollTo(sec)}
+              onClick={() => {
+                scrollTo(sec);
+                setMenuOpen(false);
+              }}
             >
               {sec}
             </span>

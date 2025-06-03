@@ -26,20 +26,24 @@
   
   
   .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr);  */
     gap: 2rem;
     justify-items: center;
+    flex-wrap: wrap;
   }
   
   .project-card {
     border: 1px solid #ccc;
     border-radius: 12px;
     padding: 2rem 1.5rem;
-    background-color: #3f567b; /* matches your dark theme */
+    background-color: #3f567b;
     transition: transform 0.2s ease, box-shadow 0.3s ease;
-    max-width: none;
-    width: 100%;
+  
+    flex: 1 1 300px;  /* 💡 allows wrapping and sets base width */
+    max-width: 350px;
+    min-width: 250px;
+    box-sizing: border-box;
   }
   
   .project-card:hover {

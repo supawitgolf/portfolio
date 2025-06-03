@@ -26,6 +26,7 @@ body, html {
   color: white;
   z-index: 1000;
   font-weight: 600;
+  flex-wrap: wrap;
 }
 
 .nav-right span {
@@ -51,4 +52,41 @@ body, html {
   padding-bottom: 1.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Mobile dropdown */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-right {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(46, 67, 100, 0.95);
+    padding: 1rem;
+  }
+
+  .nav-right.open {
+    display: flex;
+  }
+
+  .nav-right span {
+    margin: 0.5rem 0;
+  }
+
+  .toggle {
+    margin-top: 0.5rem;
+  }
 }
