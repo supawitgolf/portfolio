@@ -15,7 +15,7 @@ const Experience = () => {
       <div className="experience-header-inline">
         <h2>Experience</h2>
         <a
-          href="https://tinyurl.com/golf-resume"
+          href="https://drive.google.com/file/d/1TD8hNSxNLLpgGMEmkuieNsk8xFdXj-4i/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"
