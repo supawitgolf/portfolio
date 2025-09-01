@@ -15,7 +15,7 @@ const Experience = () => {
       <div className="experience-header-inline">
         <h2>Experience</h2>
         <a
-          href="https://drive.google.com/drive/folders/1zu4WG_G4FvDgi1uPfN5sx3uSOv95-f-a?usp=sharing"
+          href="https://drive.google.com/file/d/1OxBnFtL3DL_6DQOi1LZoRFr2zlAB3LW5/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"
@@ -35,7 +35,7 @@ const Experience = () => {
             <p><strong>MCS in Computer Science</strong></p>
             <p className="card-sub">Aug 2024 – Dec 2025 (expected)</p>
             <p><strong>GPA:</strong> 3.94 / 4.0</p>
-            <p><strong>Coursework:</strong> Applied Parallel Programming, Introduction to Data Mining, Databases Systems, Artificial Intelligence, User-Centered Machine Learning, Applied Parallel Programming</p>
+            <p><strong>Coursework:</strong> Applied Parallel Programming, Introduction to Data Mining, Databases Systems, Artificial Intelligence, User-Centered Machine Learning, Applied Parallel Programming, LLM for Software Engineering</p>
           </div>
 
           <div className="card-item">
@@ -52,6 +52,25 @@ const Experience = () => {
           <h2 style={{ marginBottom: '1rem' }}>💼 Work Experience</h2>
 
           <div className="card-item">
+            <h4>ArkForge LLC</h4>
+            <p><strong>Software Engineering Intern</strong></p>
+            <p className="card-sub">Jun 2025 – Aug 2025</p>
+            <ul>
+              <li>
+                <a 
+                  href="https://astra.arkforge.net/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  style={{ color: "white", textDecoration: "underline" }}
+                >
+                  astra.arkforge.net
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div className="card-item">
             <h4>Siam Commercial Bank</h4>
             <p><strong>Data Scientist</strong></p>
             <p className="card-sub">Jul 2022 – Jun 2024</p>
@@ -66,7 +85,7 @@ const Experience = () => {
 
           <div className="card-item">
             <h4>Quizcraft, Chulalongkorn University</h4>
-            <p><strong>Software Developer</strong></p>
+            <p><strong>Software Engineer</strong></p>
             <p className="card-sub">Aug 2021 – May 2022</p>
             <ul>
               <li>System Design + Front-End Development Lead</li>
