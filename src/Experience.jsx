@@ -4,7 +4,7 @@ import './experience.css';
 
 const Experience = () => {
     const skills = {
-        Languages: ['C++', 'Java', 'Python', 'SQL', 'JavaScript', 'CUDA (C++)'],
+        Languages: ['C++', 'Java', 'Python', 'SQL', 'JavaScript', 'CUDA (C++)', 'Rust', 'Lua'],
         'Web Development': ['HTML', 'CSS', 'React', 'Flask', 'MongoDB', 'Docker', 'Kubernetes', 'Git', 'CI/CD'],
         Technologies: ['Pandas', 'PySpark', 'Scikit-learn', 'PyTorch', 'TensorFlow', 'Matplotlib', 'Seaborn', 'Power BI', 'Linux'],
         'Cloud Platforms': ['AWS', 'Microsoft Azure', 'GCP']
